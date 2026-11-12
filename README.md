@@ -9,7 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://retro-defenders.holy-c.men/"><img alt="Play in your browser" src="https://img.shields.io/badge/Play-in%20your%20browser-d9534f?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-e8a33c?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Android" src="https://img.shields.io/badge/Download-Android-3ddc84?style=for-the-badge&logo=android&logoColor=white"></a>
+  <br>
   <img alt="Version" src="https://img.shields.io/github/v/release/BigFatDeuce/retro-defenders-game?include_prereleases&style=for-the-badge&label=version&color=5b8c3a">
   <img alt="Made with Godot" src="https://img.shields.io/badge/made%20with-Godot%204-478cbf?style=for-the-badge&logo=godotengine&logoColor=white">
 </p>
@@ -76,7 +79,15 @@
   <img src="media/campaign-maps.jpg" alt="The 18 campaign maps" width="900">
 </p>
 
-## ⬇️ Download and install (Windows)
+## ▶️ Play
+
+There are three ways to play. Your progress is saved on each device separately.
+
+### 🌐 In your browser
+
+Open **[retro-defenders.holy-c.men](https://retro-defenders.holy-c.men/)** and wait for the game to load. Nothing to install. The first visit downloads about 1.2 GB, then your browser keeps it. Works best in a recent Chrome, Edge or Firefox on a computer.
+
+### 🪟 Windows
 
 1. Go to the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)**.
 2. Download **`RetroDefenders-<version>-windows.zip`** and unzip it into a folder.
@@ -87,6 +98,17 @@
 > The game isn't code-signed, so Windows SmartScreen may show a warning the first time. Click **More info → Run anyway**.
 
 **Requirements:** Windows 10 or 11 (64-bit), a graphics card supporting OpenGL 3.3 and BC7 textures (most cards from the last ten years), and 3.2 GB of disk space (4.3 GB with the 4K pack).
+
+### 🤖 Android
+
+1. On your phone or tablet, open the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)** and download **`RetroDefenders-<version>-android.apk`**.
+2. Open the downloaded file. If Android asks, allow your browser (or file manager) to **install unknown apps**, then tap **Install**.
+3. Launch **Retro Defenders** from your apps. The game is played in landscape and the interface is sized for touch.
+
+> [!NOTE]
+> The APK isn't from the Play Store, so Android and Play Protect may warn you before installing it. If a later version refuses to install over this one, uninstall the old one first (your progress on that device will be reset).
+
+**Requirements:** a 64-bit Android device (arm64) with OpenGL ES 3.0, and about 2.5 GB of free space.
 
 ## 🎮 Controls
 
