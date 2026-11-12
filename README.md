@@ -10,10 +10,9 @@
 
 <p align="center">
   <a href="https://retro-defenders.holy-c.men/"><img alt="Play in your browser" src="https://img.shields.io/badge/Play-in%20your%20browser-d9534f?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-e8a33c?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-e8a33c?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0wIDMuNCA5LjggMnY5LjVIMHpNMTEgMS44IDI0IDB2MTEuNUgxMXpNMCAxMi41aDkuOFYyMkwwIDIwLjZ6TTExIDEyLjVoMTNWMjRsLTEzLTEuOHoiLz48L3N2Zz4%3D"></a>
   <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Android" src="https://img.shields.io/badge/Download-Android-3ddc84?style=for-the-badge&logo=android&logoColor=white"></a>
   <br>
-  <img alt="Version" src="https://img.shields.io/github/v/release/BigFatDeuce/retro-defenders-game?include_prereleases&style=for-the-badge&label=version&color=5b8c3a">
   <img alt="Made with Godot" src="https://img.shields.io/badge/made%20with-Godot%204-478cbf?style=for-the-badge&logo=godotengine&logoColor=white">
 </p>
 
@@ -90,9 +89,9 @@ Open **[retro-defenders.holy-c.men](https://retro-defenders.holy-c.men/)** and w
 ### 🪟 Windows
 
 1. Go to the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)**.
-2. Download **`RetroDefenders-<version>-windows.zip`** and unzip it into a folder.
+2. Download the **Windows zip** (the file ending in **`-windows.zip`**) and unzip it into a folder.
 3. Run **`RetroDefenders.exe`**. Keep the `data` folder next to it.
-4. *4K screen?* Also download **`RetroDefenders-<version>-pack-4K.zip`** and unzip it into the same folder. It adds sharper sprites for 4K displays. Without it, the game uses the sprites made for 1080p and 1440p screens.
+4. *4K screen?* Also download the **4K pack** (the file ending in **`-pack-4K.zip`**) and unzip it into the same folder. It adds sharper sprites for 4K displays. Without it, the game uses the sprites made for 1080p and 1440p screens.
 
 > [!NOTE]
 > The game isn't code-signed, so Windows SmartScreen may show a warning the first time. Click **More info → Run anyway**.
@@ -101,12 +100,12 @@ Open **[retro-defenders.holy-c.men](https://retro-defenders.holy-c.men/)** and w
 
 ### 🤖 Android
 
-1. On your phone or tablet, open the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)** and download **`RetroDefenders-<version>-android.apk`**.
+1. On your phone or tablet, open the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)** and download the **APK** (the file ending in **`-android.apk`**).
 2. Open the downloaded file. If Android asks, allow your browser (or file manager) to **install unknown apps**, then tap **Install**.
 3. Launch **Retro Defenders** from your apps. The game is played in landscape and the interface is sized for touch.
 
 > [!NOTE]
-> The APK isn't from the Play Store, so Android and Play Protect may warn you before installing it. If a later version refuses to install over this one, uninstall the old one first (your progress on that device will be reset).
+> The APK isn't from the Play Store, so Android and Play Protect may warn you before installing it. If a newer release refuses to install over the one you have, uninstall the old one first (your progress on that device will be reset).
 
 **Requirements:** a 64-bit Android device (arm64) with OpenGL ES 3.0, and about 2.5 GB of free space.
 
