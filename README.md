@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="media/main-menu.jpg" alt="Main menu" width="900">
+  <img src="media/gameplay.gif" alt="A battle in Retro Defenders" width="900">
 </p>
 
 ---
@@ -28,10 +28,11 @@
 - **An 18-map campaign** across Amakna, Astrub, Sidimote, Pandala and beyond, from Astrub Fields to Ilyzaelle's Lookout, with a difficulty curve that rises map after map.
 - **147 monsters** from the original game, each with its own resistances, bosses that charge through your lines, and summoners.
 - **12 heroes** to send around the battlefield, each with a special spell and points to spend as they level up.
-- **44 items** dropped in battle that boost your towers, plus a star upgrade tree and achievements.
+- **113 items** dropped in battle that boost your towers, collected on their own page, plus a star upgrade tree and achievements.
 - **Ultimate Mode:** endless stages generated from a seed, with new maps, terrain and waves every stage, and optional challenges for a higher score.
 - **Tactical pause:** stop time to build, upgrade, move your hero and line up your spells.
 - **Map interactions:** fell a tree across the path, roll logs, call the tide and more.
+- **Player profiles:** up to five players on one device, each with their own progress; switch, rename or start over at any time.
 - **Plays your way:** mouse and keyboard, full gamepad support, or touch.
 - **5 languages:** English, French, Spanish, German and Portuguese.
 
@@ -72,6 +73,12 @@
   </tr>
 </table>
 
+### The main menu
+
+<p align="center">
+  <img src="media/main-menu.jpg" alt="Main menu" width="900">
+</p>
+
 ### The campaign
 
 <p align="center">
@@ -80,7 +87,7 @@
 
 ## ▶️ Play
 
-There are three ways to play. Your progress is saved on each device separately.
+There are three ways to play. Your progress is saved on each device separately, with up to five player profiles per device.
 
 ### 🌐 In your browser
 
@@ -95,6 +102,8 @@ Open **[retro-defenders.holy-c.men](https://retro-defenders.holy-c.men/)** and w
 
 > [!NOTE]
 > The game isn't code-signed, so Windows SmartScreen may show a warning the first time. Click **More info → Run anyway**.
+
+Updates install themselves: when a new version is out, the game offers it at start-up, and one click on **Update** downloads it, installs it and restarts the game.
 
 **Requirements:** Windows 10 or 11 (64-bit), a graphics card supporting OpenGL 3.3 and BC7 textures (most cards from the last ten years), and 3.2 GB of disk space (4.3 GB with the 4K pack).
 
