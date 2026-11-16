@@ -26,7 +26,7 @@
 
 - **12 classes, 12 towers.** Cra, Feca, Osamodas, Enutrof, Sram, Xelor, Ecaflip, Eniripsa, Iop, Sadida, Sacrier and Pandawa, each with their own spells, two evolution paths and outfits that change as they level up.
 - **An 18-map campaign** across Amakna, Astrub, Sidimote, Pandala and beyond, from Astrub Fields to Ilyzaelle's Lookout, with a difficulty curve that rises map after map.
-- **147 monsters** from the original game, each with its own resistances, bosses that charge through your lines, and summoners. The bestiary gives each one a sheet with its weaknesses, abilities and maps.
+- **147 monsters** from the original game, each with its own resistances, bosses that charge through your lines, and summoners. Slowed, burning, poisoned or stunned monsters show it with effects from the original game. The bestiary gives each one a sheet with its weaknesses, abilities and maps.
 - **12 heroes** to send around the battlefield, each with a special spell and points to spend as they level up.
 - **113 items** dropped in battle that boost your towers, collected on their own page, plus a star upgrade tree and achievements.
 - **Ultimate Mode:** endless stages generated from a seed, with new maps, terrain and waves every stage, and optional challenges for a higher score.
@@ -34,7 +34,7 @@
 - **Tactical pause:** stop time to build, upgrade, move your hero and line up your spells, or speed the battle up to ×3.
 - **Battle report:** after each battle, see the damage, share and kills of every class, your hero and your spells.
 - **Map interactions:** fell a tree across the path, roll logs, call the tide and more.
-- **Player profiles:** up to five players on one device, each with their own progress; switch, rename or start over at any time.
+- **Player profiles:** up to five players on one device, each with their own progress and a face picked among 30 characters of the game; switch, rename or start over at any time.
 - **Plays your way:** mouse and keyboard, full gamepad support, or touch, with a colour-blind mode.
 - **5 languages:** English, French, Spanish, German and Portuguese.
 
