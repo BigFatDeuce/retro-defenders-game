@@ -32,10 +32,11 @@
 - **Ultimate Mode:** endless stages generated from a seed, with new maps, terrain and waves every stage, and optional challenges for a higher score.
 - **Daily challenge:** every day, the same seed, pacts, hero and team for everyone, always on Insane. Beat your best score of the day.
 - **Tactical pause:** stop time to build, upgrade, move your hero and line up your spells, or speed the battle up to ×3.
+- **A battle you can read at a glance:** the running wave's progress and the monsters still to beat, the next wave's monsters always in sight, a card introducing every special monster and every boss as they enter, and stat tiles on every tower.
 - **Battle report:** after each battle, see the damage, share and kills of every class, your hero and your spells.
 - **Map interactions:** fell a tree across the path, roll logs, call the tide and more.
 - **Player profiles:** up to five players on one device, each with their own progress and a face picked among 30 characters of the game; switch, rename or start over at any time.
-- **Plays your way:** mouse and keyboard, full gamepad support, or touch, with a colour-blind mode.
+- **Plays your way:** mouse and keyboard, full gamepad support, or touch, with a colour-blind mode and a reduced-motion option.
 - **5 languages:** English, French, Spanish, German and Portuguese.
 
 ## 🖼️ Screenshots
@@ -105,7 +106,7 @@ Open **[retro-defenders.holy-c.men](https://retro-defenders.holy-c.men/)** and w
 > [!NOTE]
 > The game isn't code-signed, so Windows SmartScreen may show a warning the first time. Click **More info → Run anyway**.
 
-Updates install themselves: when a new version is out, the game offers it at start-up, and one click on **Update** downloads it, installs it and restarts the game.
+Updates install themselves: when a new version is out, the game offers it at start-up, and one click on **Update** downloads it, installs it and restarts the game. You can also look for one at any time in **Options → Version → Check for updates**.
 
 **Requirements:** Windows 10 or 11 (64-bit), a graphics card supporting OpenGL 3.3 and BC7 textures (most cards from the last ten years), and 3.2 GB of disk space (4.3 GB with the 4K pack).
 
