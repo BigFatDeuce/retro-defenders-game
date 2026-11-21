@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://retro-defenders.holy-c.men/"><img alt="Play in your browser" src="https://img.shields.io/badge/Play-in%20your%20browser-d9534f?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-e8a33c?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0wIDMuNCA5LjggMnY5LjVIMHpNMTEgMS44IDI0IDB2MTEuNUgxMXpNMCAxMi41aDkuOFYyMkwwIDIwLjZ6TTExIDEyLjVoMTNWMjRsLTEzLTEuOHoiLz48L3N2Zz4%3D"></a>
+  <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Linux" src="https://img.shields.io/badge/Download-Linux-f0c040?style=for-the-badge&logo=linux&logoColor=black"></a>
   <a href="https://github.com/BigFatDeuce/retro-defenders-game/releases/latest"><img alt="Download for Android" src="https://img.shields.io/badge/Download-Android-3ddc84?style=for-the-badge&logo=android&logoColor=white"></a>
   <br>
   <img alt="Made with Godot" src="https://img.shields.io/badge/made%20with-Godot%204-478cbf?style=for-the-badge&logo=godotengine&logoColor=white">
@@ -27,13 +28,14 @@
 - **12 classes, 12 towers.** Cra, Feca, Osamodas, Enutrof, Sram, Xelor, Ecaflip, Eniripsa, Iop, Sadida, Sacrier and Pandawa, each with their own spells, two evolution paths and outfits that change as they level up.
 - **An 18-map campaign** across Amakna, Astrub, Sidimote, Pandala and beyond, from Astrub Fields to Ilyzaelle's Lookout, with a difficulty curve that rises map after map.
 - **147 monsters** from the original game, each with its own resistances, bosses that charge through your lines, and summoners. Slowed, burning, poisoned or stunned monsters show it with effects from the original game. The bestiary gives each one a sheet with its weaknesses, abilities and maps.
-- **12 heroes** to send around the battlefield, each with a special spell and points to spend as they level up.
+- **12 heroes** to send around the battlefield, each with a special spell and points to spend as they level up, **plus a secret one**: finish the campaign to unmask Vil Smisse the Rogue, who scatters skull bombs on the road and sets them all off at once with his Detonator.
+- **Special waves:** once per battle, a random wave turns into a rush of monsters that fits the map (Tofus, Gobballs, bandits, Bworks and 26 more), announced by an animated banner.
 - **113 items** dropped in battle that boost your towers, collected on their own page, plus a star upgrade tree and achievements.
 - **Ultimate Mode:** endless stages generated from a seed, with new maps, terrain and waves every stage, and optional challenges for a higher score.
 - **Daily challenge:** every day, the same seed, pacts, hero and team for everyone, always on Insane. Beat your best score of the day.
 - **Tactical pause:** stop time to build, upgrade, move your hero and line up your spells, or speed the battle up to ×3.
 - **A battle you can read at a glance:** the running wave's progress and the monsters still to beat, the next wave's monsters always in sight, a card introducing every special monster and every boss as they enter, and stat tiles on every tower.
-- **Battle report:** after each battle, see the damage, share and kills of every class, your hero and your spells.
+- **Battle report:** after each battle, see the damage, share and kills of every class (and how many you placed), your hero and your spells, plus the battle in figures.
 - **Map interactions:** fell a tree across the path, roll logs, call the tide and more.
 - **Player profiles:** up to five players on one device, each with their own progress and a face picked among 30 characters of the game; switch, rename or start over at any time.
 - **Plays your way:** mouse and keyboard, full gamepad support, or touch, with a colour-blind mode and a reduced-motion option.
@@ -74,6 +76,14 @@
     <td align="center"><sub>Bestiary</sub></td>
     <td align="center"><sub>Ultimate Mode</sub></td>
   </tr>
+  <tr>
+    <td><img src="media/special-wave.jpg" alt="A special wave is announced"></td>
+    <td><img src="media/rogue.jpg" alt="Vil Smisse's skull bombs and his Detonator"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Once per battle, a special wave rushes in</sub></td>
+    <td align="center"><sub>The secret Rogue's bombs, then his Detonator</sub></td>
+  </tr>
 </table>
 
 ### The main menu
@@ -90,7 +100,7 @@
 
 ## ▶️ Play
 
-There are three ways to play. Your progress is saved on each device separately, with up to five player profiles per device.
+There are four ways to play. Your progress is saved on each device separately, with up to five player profiles per device.
 
 ### 🌐 In your browser
 
@@ -110,11 +120,24 @@ Updates install themselves: when a new version is out, the game offers it at sta
 
 **Requirements:** Windows 10 or 11 (64-bit), a graphics card supporting OpenGL 3.3 and BC7 textures (most cards from the last ten years), and 3.2 GB of disk space (4.3 GB with the 4K pack).
 
+### 🐧 Linux
+
+1. Go to the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)**.
+2. Download the **Linux zip** (the file ending in **`-linux.zip`**) and unzip it into a folder.
+3. Run **`./RetroDefenders.x86_64`** (or double-click it). If your unzip tool dropped the permission, run `chmod +x RetroDefenders.x86_64` first. Keep the `data` folder next to it.
+4. *4K screen?* Unzip the same **4K pack** (**`-pack-4K.zip`**) into the same folder.
+
+Updates install themselves like on Windows: the game downloads the new version, replaces its files and restarts (it uses `unzip`, Python 3 or `bsdtar`, one of which nearly every distribution has).
+
+**Requirements:** a 64-bit (x86_64) Linux desktop with a graphics driver supporting OpenGL 3.3 and BC7 textures (Mesa and the proprietary drivers do), and 3.2 GB of disk space (4.3 GB with the 4K pack).
+
 ### 🤖 Android
 
 1. On your phone or tablet, open the **[latest release](https://github.com/BigFatDeuce/retro-defenders-game/releases/latest)** and download the **APK** (the file ending in **`-android.apk`**).
 2. Open the downloaded file. If Android asks, allow your browser (or file manager) to **install unknown apps**, then tap **Install**.
 3. Launch **Retro Defenders** from your apps. The game is played in landscape and the interface is sized for touch.
+
+When a new version is out, the game says so and downloads the new APK in one tap; Android then offers to install it.
 
 > [!NOTE]
 > The APK isn't from the Play Store, so Android and Play Protect may warn you before installing it. If a newer release refuses to install over the one you have, uninstall the old one first (your progress on that device will be reset).
